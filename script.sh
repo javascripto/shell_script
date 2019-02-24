@@ -55,3 +55,10 @@ calculadora() {
     *) echo "Opção inválida" ;;
   esac
 }
+
+loading() {
+  for i in {1..3}; do
+    sleep 0.5
+    echo -n .
+  done
+}
